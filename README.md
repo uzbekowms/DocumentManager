@@ -1,5 +1,7 @@
 # Document Manager
 
+---
+
 In this task my implementation based on instructions:
 > For implement this task focus on clear code, and make this solution as simple readable as possible
 >
@@ -52,3 +54,7 @@ public List<Document> search(){ // Also can be named as findAll
 
 I would also separate the code into individual files and isolate the data persistence layer and business logic (Service) into separate components. If needed, a presentation layer and user interaction could also be added.
 
+---
+
+The file with the implemented solution can be found in the directory ```src\main\java\ua\lavms```.
+Additionally, the tests for this class are written in the directory ```src\test\java\ua\lavms\```.
